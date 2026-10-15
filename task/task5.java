@@ -7,4 +7,4 @@ public class task5 {
         else
             System.out.println("Largest: " + Math.max(a, Math.max(b, c)));
     }
-}
+} 
