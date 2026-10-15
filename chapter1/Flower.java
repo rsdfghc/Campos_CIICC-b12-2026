@@ -1,5 +1,7 @@
 package chapter1;
 
+import java.util.*;
+
 public class Flower {
     String name;
     String color;
@@ -8,6 +10,11 @@ public class Flower {
         flower1.name = "Sunflower";
         flower1.color = "Yellow";
         System.out.println(flower1.name);
+        
+        Random r = new Random(); 
+        System.out.println(r.nextInt(100));
+    
+        ArrayList<String> al = new ArrayList<>();
     }
     
 }
