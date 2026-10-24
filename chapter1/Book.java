@@ -1,0 +1,22 @@
+package chapter1;
+
+public class Book {
+    String title;
+    String author;
+    int yearPublished;
+    double price;
+
+    public Book(String title, String author, int yearPublished, double price) {
+        this.title = title;
+        this.author = author;
+        this.yearPublished = yearPublished;
+        this.price = price;
+    }
+
+    public String toString() {
+        return "Title: \"" + title + "\"\n" +
+               "Author: \"" + author + "\"\n" +
+               "Year Published: " + yearPublished + "\n" +
+               "Price: $" + String.format("%.2f", price);
+    }
+}
